@@ -9,7 +9,7 @@
 		$q = mysqli_query($con,$query)or die("insert error");
 		
 			print "<script>";
-			print "alert('Member add successfully....');";
+			print "alert('Student add successfully....');";
 			print "self.location='index.php';";
 			print "</script>";
 		
